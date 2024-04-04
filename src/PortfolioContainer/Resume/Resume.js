@@ -96,7 +96,9 @@ const Resume = (props) => {
         "This is created with integration of OpenAI's API with a react frontend application which lets us query prompt to generate proper responses. Hosted on Github pages and the application calls to lambda handler through an API Gateway.",
       subHeading:
         "Next to implement JWT authentication as the use of OpenAI's API requires a paid subscription",
-    }
+      link:<a target='_blank'
+        rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/React-OpenAIAPI-integration/">Todo App</a>
+      }
   ];
 
   const resumeDetails = [
