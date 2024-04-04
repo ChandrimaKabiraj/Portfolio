@@ -72,16 +72,16 @@ const Resume = (props) => {
   const projectsDetails = [
     {
       title: "Personal Portfolio Website",
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: { fromDate: "2022", toDate: "2023" },
       description:
         "A Personal Portfolio website to showcase my Work Experience, Project and Educational details at one place.",
       subHeading: "The website used a frontend email service(EmailJs) and a link to download my resume alongside visiting my linkedIn,Github profiles",
       link:<a target='_blank'
-      rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/MyPortfolio/">Todo App</a>
+      rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Portfolio/">Portfolio</a>
     },
     {
       title: "Todo App ",
-      duration: { fromDate: "2021", toDate: "2022" },
+      duration: { fromDate: "2022", toDate: "2023" },
       description:
         "This is a CRUD application hosted on AWS cloud (using S3,lambda,API gateway and DynamoDB) and built using React(frontend) and Node(backend).",
       subHeading:
@@ -90,12 +90,12 @@ const Resume = (props) => {
         rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Todo-App/">Todo App</a>
     },
     {
-      title: "WebSocket_API ",
-      duration: { fromDate: "2021", toDate: "2022" },
+      title: "OenAIAPI-React Integration ",
+      duration: { fromDate: "2023", toDate: "2024" },
       description:
-        "This website is for creating and updating users which are stored in SQL database which represents the backend api for any form application",
+        "This is created with integration of OpenAI's API with a react frontend application which lets us query prompt to generate proper responses. Hosted on Github pages and the application calls to lambda handler through an API Gateway.",
       subHeading:
-        "Technologies Used: SQL, Epress Js, React Js, Node JS.",
+        "Next to implement JWT authentication as the use of OpenAI's API requires a paid subscription",
     }
   ];
 
