@@ -77,17 +77,17 @@ const Resume = (props) => {
         "A Personal Portfolio website to showcase my Work Experience, Project and Educational details at one place.",
       subHeading: "The website used a frontend email service(EmailJs) and a link to download my resume alongside visiting my linkedIn,Github profiles",
       link:<a target='_blank'
-      rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Portfolio/">Portfolio</a>
+      rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Portfolio/">Go To Website</a>
     },
     {
       title: "Todo App ",
       duration: { fromDate: "2022", toDate: "2023" },
       description:
-        "This is a CRUD application hosted on AWS cloud (using S3,lambda,API gateway and DynamoDB) and built using React(frontend) and Node(backend).",
+        "Created a CRUD application hosted on AWS using DynamoDB ,lambda and API gateway) built with Node.js on backend and React on the frontend .It also uses Auth0 authentication for enabling user authentication/Google authentication. This website lets users dive into the content wherever there is no internet by bringing in Service Workers or caching the essentials.",
       subHeading:
         "Implemented Auth0 authentication through login and logout with frontend hosted on Github pages and backend on cloud",
       link:<a target='_blank'
-        rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Todo-App/">Todo App</a>
+        rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/Todo-App/">Go To Website</a>
     },
     {
       title: "OenAIAPI-React Integration ",
@@ -97,7 +97,7 @@ const Resume = (props) => {
       subHeading:
         "Next to implement JWT authentication as the use of OpenAI's API requires a paid subscription",
       link:<a target='_blank'
-        rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/React-OpenAIAPI-integration/">Todo App</a>
+        rel='noopener noreferrer' href="https://chandrimakabiraj.github.io/React-OpenAIAPI-integration/">Go To Website</a>
       }
   ];
 
